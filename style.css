@@ -1,0 +1,73 @@
+body {
+    background-color: #f0f8ff; /* AliceBlue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #4682B4; /* SkyBlue */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    color: #ffffff; /* RoyalBlue */
+    margin-bottom: 20px;
+    font-family: arial;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    color: #000000; /* DodgerBlue */
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #87ceeb; /* SkyBlue */
+    border-radius: 4px;
+    display: inline-block;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #87CEFA; /* DodgerBlue */
+    color: #fff;
+    cursor: pointer;
+    width: calc(50% - 5px);
+    margin-left: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #007bb5; /* DeepSkyBlue */
+}
+
+button[type="submit"] {
+    background-color: #87CEFA; /* DodgerBlue */
+    color: #fff;
+    cursor: pointer;
+    width: calc(50% - 5px);
+    margin-left: 5px;
+    text-decoration: none; /* Remover sublinhado */
+}
+
+button[type="submit"]:hover {
+    background-color: #007bb5; /* DeepSkyBlue */
+}
+
